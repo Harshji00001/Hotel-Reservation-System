@@ -1,0 +1,31 @@
+{% load static %}
+<a name="top"></a>
+<div class="mt-3" style="background-color: black; width:100% ; height:250px">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 mt-3">
+            <h3 class="text-white">Contact Information</h3>
+            <p style="color:yellow; font-size: 18px"><i class="fa fa-map-marker text-danger"></i>   Analyze Infotech, Lucknow</p>
+            <p style="color:yellow; font-size: 18px"><i class="fa fa-envelope text-danger"></i>   admin@analyzeingotech.in</p>
+            <p style="color:yellow; font-size: 18px"><i class="fa fa-mobile text-danger"></i>   P:  9839434821 /9453193268</p>
+            <p style="color:yellow; font-size: 18px"><i class="fa fa-globe text-danger"></i>   W:  www.analyzeingotexh.in</p>
+        </div>
+
+        <div class="col-md-6 mt-3">
+        <h3 class="text-white">About Resort Booking</h3>
+        <p style="color:yellow; font-size:18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque dolor doloribus dolorum illo itaque numquam quam sunt vitae voluptates. Deleniti est non pariatur quasi rem? Autem dolore error eveniet, fugiat itaque iure magni necessitatibus perspiciatis quasi reprehenderit, vel voluptatibus. Alias atque beatae dolorum fugit illum in minus modi natus obcaecati odio quam quasi recusandae, saepe temporibus totam unde vel.</p>
+    </div>
+
+    <div class="col-md-3 mt-3">
+        <h3 class="text-white">Current News</h3>
+        <marquee scrollamount="3" behavior="" direction="up">
+        <p style="color:yellow; font-size:18px">Without mask no entry for enquiry. Due to COVID19 be safe.</p>
+        <form method="post" class="form-inline">
+            {% csrf_token %}
+        </form>
+        </marquee>
+    </div>
+    </div>
+</div>
+</div>
+
